@@ -1,5 +1,10 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/Other",
+    "pages/Another",
+    "views/ViewIndex",
+    "views/Other",
+    "views/Another"
   ]
 }

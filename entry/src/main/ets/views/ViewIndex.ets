@@ -10,21 +10,16 @@
 //
 // router.replaceUrl({url:'pages/Another'}) 不能回退上一个页面
 
-// 路由跳转传参
-// 1. 传递参数:  router.pushUrl|replaceUrl({url:'pages/Another',params:{id:1,name:'张三'}})
-// params:{id:1,name:'张三'}}  里面是一个参数对象{参数1:值1,参数2:值2,....}
-
-// 2.接收参数:  router.getParams() 获取的是一个对象{参数1:值1,参数2:值2,....}
-
 
 import { router } from '@kit.ArkUI'
 
 
 @Entry
 @Component
-struct Index {
+struct ViewIndex {
   build() {
     Column(){
+      Text("Hello ViewIndex").fontSize(30)
       Text("点击进入Another页")
       .width('100%')
       .fontSize(30)
@@ -36,18 +31,10 @@ struct Index {
       .margin(10)
       .borderColor(Color.Red)
       .onClick(()=>{
-        router.pushUrl({
-          url:'pages/Another',
-          params:{
-            id:1,
-            name:'张三',
-            content:'content'
-          }
-        })
+        router.pushUrl({url:'pages/Another'})
         // router.pushUrl({url:'/pages/Another'})  前面先写/有提示 写完后记得删除/
 
         //页面栈跳转
-
       })
       Text("点击进入Other页")
         .width('100%')
