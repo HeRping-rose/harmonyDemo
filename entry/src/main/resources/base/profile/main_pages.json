@@ -5,6 +5,9 @@
     "pages/Another",
     "views/ViewIndex",
     "views/Other",
-    "views/Another"
+    "views/Another",
+    "pages/GetAppStorage",
+    "pages/JDShopCar",
+    "components/JdShopGoods"
   ]
 }
