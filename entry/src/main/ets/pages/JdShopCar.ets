@@ -9,19 +9,27 @@ import { JdTabBar } from '../components/JdTabBar'
 struct JDShopCar {
   @State title: string = '购物车'
 
-  build() {
-    Column(){
-    //   naveBar
+    build() {
+      Column(){
+        //   naveBar
       JdNavBar({title:this.title})
 
       Column(){
         JdShopGoods()
+        JdShopGoods()
+        JdShopGoods()
+        JdShopGoods()
 
       }.layoutWeight(1)
-    //   tabbar
+    //   tabBar
       JdTabBar({title:this.title})
     }
     .height('100%')
+
+
+
+
     .width('100%')
+
   }
 }

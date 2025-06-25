@@ -7,7 +7,10 @@
     "views/Other",
     "views/Another",
     "pages/GetAppStorage",
-    "pages/JDShopCar",
-    "components/JdShopGoods"
+    "pages/JdShopCar",
+    "components/JdShopGoods",
+    "pages/JdRegister",
+    "pages/JdLogin",
+    "pages/JdIndex"
   ]
 }

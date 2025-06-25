@@ -5,7 +5,7 @@
 export struct JdShopGoods {
   build() {
     Row(){
-      Image('https://tse4-mm.cn.bing.net/th/id/OIP-C.g5Z_46KaRbplB-6BOYgVggHaHa?w=185&h=185&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3')
+      Image($rawfile('apple.png'))
         .width(100)
         .height(100)
       Column(){
