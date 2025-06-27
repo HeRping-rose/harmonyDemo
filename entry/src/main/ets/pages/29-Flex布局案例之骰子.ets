@@ -1,3 +1,6 @@
+
+
+// Flex 布局 骰子案例
 @Entry
 @Component
 struct Index {
